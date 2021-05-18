@@ -1,0 +1,15 @@
+{
+  "name": "verdaccio-demo",
+  "version": "1.0.0",
+  "description": "## Node.js >=v12",
+  "main": "index.js",
+  "scripts": {
+    "start": "verdaccio --listen http://selfnpm:8899 --config ./config.yaml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "verdaccio": "^5.0.4"
+  }
+}
